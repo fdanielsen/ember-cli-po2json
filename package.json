@@ -1,0 +1,19 @@
+{
+  "name": "ember-cli-po2json",
+  "version": "0.0.1",
+  "description": "Ember CLI addon for broccoli-po2json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember-cli",
+    "po2json"
+  ],
+  "author": "Frode Danielsen <frode@e5r.no>",
+  "license": "ISC",
+  "dependencies": {
+    "broccoli-po2json": "^0.0.1"
+  }
+}
