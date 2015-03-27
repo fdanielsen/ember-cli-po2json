@@ -18,6 +18,6 @@
   "author": "Frode Danielsen <frode@e5r.no>",
   "license": "ISC",
   "dependencies": {
-    "broccoli-po2json": "^0.0.1"
+    "broccoli-po2json": "git://github.com/fdanielsen/broccoli-po2json.git"
   }
 }
