@@ -11,6 +11,10 @@
     "ember-cli",
     "po2json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fdanielsen/ember-cli-po2json.git"
+  },
   "author": "Frode Danielsen <frode@e5r.no>",
   "license": "ISC",
   "dependencies": {
