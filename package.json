@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-po2json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ember CLI addon for broccoli-po2json",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,10 @@
   "dependencies": {
     "broccoli-merge-trees": "^1.0.0",
     "broccoli-po2json": "git://github.com/fdanielsen/broccoli-po2json.git"
+  },
+  "ember-addon": {
+    "before": [
+      "ember-cli-babel"
+    ]
   }
 }
