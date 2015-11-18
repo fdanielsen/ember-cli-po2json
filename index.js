@@ -1,6 +1,7 @@
 /* jshint globalstrict:true, node:true */
 'use strict';
 
+var BroccoliMergeTrees = require('broccoli-merge-trees');
 var poCompile = require('broccoli-po2json');
 
 module.exports = {
@@ -18,7 +19,7 @@ module.exports = {
                     es6: true
                 });
 
-                return self.mergeTrees([tree, localeTree]);
+                return BroccoliMergeTrees([tree, localeTree]);
             }
         });
     },
