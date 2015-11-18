@@ -19,7 +19,7 @@ module.exports = {
                     es6: true
                 });
 
-                return BroccoliMergeTrees([tree, localeTree]);
+                return new BroccoliMergeTrees([tree, localeTree]);
             }
         });
     },
