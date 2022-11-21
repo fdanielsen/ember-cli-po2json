@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "broccoli-merge-trees": "^1.0.0",
-    "broccoli-po2json": "git://github.com/fdanielsen/broccoli-po2json.git"
+    "broccoli-po2json": "https://github.com/fdanielsen/broccoli-po2json.git"
   },
   "ember-addon": {
     "before": [
